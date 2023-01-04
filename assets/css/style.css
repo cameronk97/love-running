@@ -92,6 +92,10 @@ h1, h2 {
     }
 }
 
+#cover-text, #cover-text h2 {
+    color: #ffffff;
+}
+
 #cover-text {
     font-size: 130%;
     font-family: Oswald, sans-serif;
@@ -110,6 +114,7 @@ h1, h2 {
     right: 150px;
 
     position: absolute;
+
 }
 
 /* club ethos */
@@ -165,7 +170,10 @@ hr {
     text-align: right;
 }
 
+/* Club ethos center image */
+
 #welcome {
+    margin: 20px 0;
     text-align: center;
     margin: 20px 0;
     font-size: 280%;
@@ -188,7 +196,7 @@ hr {
     border-radius: 50%;
 }
 
-/* event times */
+/* Event times */
 
 #times {
     background-image: url('../images/dublin-city.webp');
@@ -215,7 +223,7 @@ hr {
     color:#fafafa;
 }
 
-/* footer */
+/* Footer */
 
 footer {
     height: 150px;
@@ -223,6 +231,7 @@ footer {
 
 .social-networks {
     text-align: center;
+
 }
 
 .social-networks > li {
@@ -264,7 +273,7 @@ footer {
         padding: 30px 0;
         margin: 0;
     }
-    
+
     #left-about, #right-about {
         width: 100%;
         float: left;
@@ -295,7 +304,7 @@ footer {
     #menu {
         clear: left;
         float: left;
-        margin-left: 30px;
+        margin-left: 30px; 
         margin-bottom: 20px;
         line-height: 25px;
     }
@@ -330,7 +339,7 @@ footer {
     
 }
 
-/* For small screen sizes 800px and down */
+/* For small screens sizes from 800px wide and down */
 @media screen and (max-width: 800px) {
     #photos {
         column-count: 2;
